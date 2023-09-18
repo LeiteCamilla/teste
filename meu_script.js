@@ -93,7 +93,7 @@ Template("tabela_script_auditivo.csv",
                          ,
                           newText("B", row.SentenceB)
                          ,
-                        newCanvas("2000vn","800vh")
+                        newCanvas("2000vw","800vh")
                          .add("center at 25%", "middle at 2%", getText("A"))
                          .add("center at 75%, "middle at 2%", getText("B"))
                          .print()
